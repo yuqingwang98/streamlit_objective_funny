@@ -4,7 +4,7 @@ from PIL import Image
 def app():
     gh_url = 'https://github.com/rmelbardis/ObjectivelyFunny'
 
-    with open('styles/about_style.css') as f:
+    with open('styles/styles.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
         st.markdown('<link rel="preconnect" href="https://fonts.googleapis.com">',
                     unsafe_allow_html=True)

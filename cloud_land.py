@@ -3,8 +3,10 @@ import age_cloud, decade_cloud, gender_cloud
 from multipage import MultiPage
 
 def app():
-    with open('styles/cloud_style.css') as f:
+    with open('styles/styles.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+        st.markdown('<link rel="preconnect" href="https://fonts.googleapis.com">',
+                    unsafe_allow_html=True)
 
     app = MultiPage()
 
