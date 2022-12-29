@@ -16,3 +16,4 @@ We have sourced and processed a wide range of stand-up scripts to analyse comedi
 * Integrated and published the completed project on a public site using Streamlit.
 
 ## Link to Application
+https://yuqingwang98-streamlit-objective-funny-app-r1o46c.streamlit.app/
