@@ -18,9 +18,7 @@ def app():
 
     st.markdown('<h1>Welcome to our project!</h1>',
                 unsafe_allow_html=True)
-    st.markdown("<h5>We recommend the use of dark mode. <br><br>\
-                You can change the theme in the settings (on your right).<br><br><br>\
-                Use the <strong>sidebar</strong> on the left to navigate the app</h5>",
+    st.markdown("<h5>Use the <strong>sidebar</strong> on the left to navigate the app</h5>",
                 unsafe_allow_html=True)
 
     st.markdown('<p>This project was made by 4 students from the Le Wagon Data\

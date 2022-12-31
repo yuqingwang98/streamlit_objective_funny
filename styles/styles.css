@@ -1,5 +1,5 @@
 .main {
-  background-color: black; 
+  background-color: black;
 }
 
 /* sidebar */
@@ -14,6 +14,10 @@
 h1, h2, h3, h5, p, ol, ul {
   color: rgb(255, 255, 255);
   font-family: 'Poppins', sans-serif;
+}
+
+header.css-18ni7ap.e8zbici2 {
+  background-color: black;
 }
 
 footer.css-1q1n0ol.egzxvld0 {
@@ -34,7 +38,7 @@ h3 {
 
 h5 {
   font-size: 15px;
-  line-height: 0.8;
+  line-height: 1;
   padding-bottom: 50px;
 }
 
@@ -51,4 +55,12 @@ a, a:link, a:visited {
 img.robecca {
   padding-top: 10%;
   width: 20%;
+}
+
+ul.st-bv, .css-1t72r04, .css-uct3qm, .css-1xju8yy{
+  background-color: dimgrey;
+}
+
+li.css-v83eag:hover {
+  background-color: pink;
 }
