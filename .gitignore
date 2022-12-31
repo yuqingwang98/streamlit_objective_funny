@@ -1,6 +1,7 @@
 /__pycache__
 */__pycache__
 .DS_Store
+/ObjectivelyFunny.egg-info
 
 # hiding legacy files (remember to delete this)
 styles/bot_style.css
