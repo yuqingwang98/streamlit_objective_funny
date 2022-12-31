@@ -14,7 +14,7 @@ def app():
                     unsafe_allow_html=True)
             for i in range(1, 5):
                 image = Image.open(f'word-clouds/Ladies{i}.png')
-                st.image(image, width=300)
+                st.image(image)
 
 
         with col2:
@@ -22,11 +22,11 @@ def app():
                     unsafe_allow_html=True)
             for i in range(1, 5):
                 image = Image.open(f'word-clouds/Gentlemen{i}.png')
-                st.image(image, width=300)
+                st.image(image)
 
         with col3:
             st.markdown("<h1 style='text-align: center; font-family: sans-serif; color: white;'>Gender Queer</h1>",
                     unsafe_allow_html=True)
             for i in range(1, 5):
                 image = Image.open(f'word-clouds/Genderqueer{i}.png')
-                st.image(image, width=300)
+                st.image(image)
