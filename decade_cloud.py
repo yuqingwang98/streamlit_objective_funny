@@ -1,6 +1,9 @@
 import streamlit as st
 from PIL import Image
 
+min_val = 1980
+max_val = 2020
+
 def app():
     '''
     # ☁ Compare hot topics by decades
@@ -12,8 +15,8 @@ def app():
         col1, col2 = st.columns(2)
 
         with col1:
-            option1 = st.slider('Select the first decade', min_value=1980,
-                                max_value =2020, step=10, key=1)
+            option1 = st.slider('Select the first decade', min_value=min_val,
+                                max_value = max_val, value=2010, step=10, key=1)
             if option1==1980:
                 # 1980 here is used here to represent before 1990
                 st.write('Decade １:', 'before 1990')
@@ -21,8 +24,8 @@ def app():
                 st.write('Decade １:', f'{option1}s')
 
         with col2:
-            option2 = st.slider('Select the second decade', min_value=1980,
-                                max_value =2020, step=10, key=2)
+            option2 = st.slider('Select the second decade', min_value=min_val,
+                                max_value = max_val, value=2000, step=10, key=2)
             if option2==1980:
                 # 1980 here is used here to represent before 1990
                 st.write('Decade ２:', 'before 1990')
