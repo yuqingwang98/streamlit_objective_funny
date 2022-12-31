@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 from gtts import gTTS
-from predict import generate_text, get_jokes
+from components.predict import generate_text, get_jokes
 
 def app():
     text_output =''

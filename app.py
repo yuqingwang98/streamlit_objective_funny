@@ -1,6 +1,6 @@
 import streamlit as st
-from multipage import MultiPage
-import about, cloud_land, bot
+from components.multipage import MultiPage
+import components.about as about, components.cloud_land as cloud_land, components.bot as bot
 from PIL import Image
 
 # Create an instance of the app

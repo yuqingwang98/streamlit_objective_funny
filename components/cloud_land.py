@@ -1,6 +1,6 @@
 import streamlit as st
-import age_cloud, decade_cloud, gender_cloud
-from multipage import MultiPage
+import components.age_cloud, components.decade_cloud, components.gender_cloud
+from components.multipage import MultiPage
 
 def app():
     with open('styles/styles.css') as f:
@@ -10,8 +10,8 @@ def app():
 
     app = MultiPage()
 
-    app.add_page("Age", age_cloud.app)
-    app.add_page("Decade", decade_cloud.app)
-    app.add_page("Gender", gender_cloud.app)
+    app.add_page("Age", components.age_cloud.app)
+    app.add_page("Decade", components.decade_cloud.app)
+    app.add_page("Gender", components.gender_cloud.app)
 
     app.run()
