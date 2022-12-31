@@ -41,7 +41,7 @@ def app():
             if st.button('Continue with one age group'):
                 st.write('Results generated 🎉')
                 st.header(f'People aged {option1}')
-                st.image(image1, width=700)
+                st.image(image1)
             else:
                 st.write('😞 Cloud not generated yet.')
 
@@ -60,9 +60,9 @@ def app():
                 """
                 with col1:
                     st.header(f'People aged {option1}')
-                    st.image(image1, width=500)
+                    st.image(image1)
                 with col2:
                     st.header(f'People aged {option2}')
-                    st.image(image2, width=500)
+                    st.image(image2)
             else:
                 st.write('😞 Cloud not generated yet.')
