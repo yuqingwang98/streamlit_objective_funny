@@ -1,5 +1,5 @@
 # streamlit_objective_funny
-**WIP**
+**Work In Progress**
 
 This is the front-end of [Objectively Funny](https://github.com/rmelbardis/ObjectivelyFunny)
 
@@ -17,3 +17,8 @@ We have sourced and processed a wide range of stand-up scripts to analyse comedi
 
 ## Link to Application
 https://yuqingwang98-streamlit-objective-funny-app-r1o46c.streamlit.app/
+
+## Running locally
+
+make install_requirements <br>
+make streamlit
