@@ -7,11 +7,11 @@
   background: rgb(38, 39, 48);
 }
 
-.css-1inwz65, .css-81oif8, .streamlit-expanderHeader {
+.css-1inwz65, .css-81oif8 {
   color: white;
 }
 
-h1, h2, h3, h5, p, ol, ul {
+h1, h2, h3, h5, p, ol, ul, .streamlit-expanderHeader{
   color: rgb(255, 255, 255);
   font-family: 'Poppins', sans-serif;
 }
@@ -43,7 +43,7 @@ h5 {
 }
 
 p, ol {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -57,6 +57,7 @@ img.robecca {
   width: 20%;
 }
 
+/* styling settings bar */
 ul.st-bv, .css-1t72r04, .css-uct3qm, .css-1xju8yy{
   background-color: dimgrey;
 }
@@ -65,8 +66,22 @@ li.css-v83eag:hover {
   background-color: pink;
 }
 
-
 /* decade cloud picture size */
 .css-1v0mbdj {
   max-width: 95%;
+}
+
+/* styling stored jokes */
+.streamlit-expanderHeader {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.css-1fv8s86 li {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.streamlit-expanderContent {
+  padding-left: 25px;
 }
