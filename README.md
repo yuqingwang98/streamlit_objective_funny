@@ -1,15 +1,15 @@
-# streamlit_objective_funny
-**Work In Progress**
+# **Welcome to the front-end of Objectively Funny**
 
-This is the front-end of [Objectively Funny](https://github.com/rmelbardis/ObjectivelyFunny).
+### View the web app [here](https://objectively-funny.streamlit.app/)
 
-## Link to Application
-https://objectively-funny.streamlit.app/
 
-# Objectively Funny
+## About
 
-This project was made by 4 Le Wagon Data Science students as our final project.
+Objectively Funny was made by 4 Le Wagon Data Science students as our final project.
+
 We have sourced and processed a wide range of stand-up scripts to analyse comedians and make our own comedy.
+
+[Link to Repo](https://github.com/rmelbardis/ObjectivelyFunny)
 
 ## Description
 
@@ -20,7 +20,7 @@ We have sourced and processed a wide range of stand-up scripts to analyse comedi
 
 Note: Our joke-generating API is no longer running, but you can view here the word clouds of stand-up comedy themes, and a few jokes our bot generated before.
 
-## Running locally
+## To run locally
 
 make install_requirements <br>
 make streamlit
