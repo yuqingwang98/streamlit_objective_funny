@@ -70,14 +70,14 @@ def app():
                 ---------------------------------
                 """
                 with col1:
-                    st.image(image1, width=500)
-                    st.image(image2, width=500)
-                    st.image(image3, width=500)
-                    st.image(image4, width=500)
+                    st.image(image1)
+                    st.image(image2)
+                    st.image(image3)
+                    st.image(image4)
                 with col2:
-                    st.image(image5, width=500)
-                    st.image(image6, width=500)
-                    st.image(image7, width=500)
-                    st.image(image8, width=500)
+                    st.image(image5)
+                    st.image(image6)
+                    st.image(image7)
+                    st.image(image8)
             else:
                 st.write('😞 Cloud not generated yet.')
